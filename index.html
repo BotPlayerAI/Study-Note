@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Note | Your AI Learning Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <nav class="nav-bar">
+          <div class="brand">
+            <span class="logo">SN</span>
+            <span class="name">Study Note</span>
+          </div>
+          <div class="nav-actions">
+            <button class="ghost">Download Guide</button>
+            <button class="primary">Launch App</button>
+          </div>
+        </nav>
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">AI that learns with you</p>
+            <h1>Personalized study sessions powered by an AI mentor.</h1>
+            <p class="subtitle">
+              Study Note adapts to your pace, keeps your notes organized, and
+              asks the right questions to help knowledge stick.
+            </p>
+            <div class="hero-cta">
+              <button class="primary">Start Free Session</button>
+              <button class="ghost">Explore Curriculum</button>
+            </div>
+            <div class="stats">
+              <div>
+                <span class="stat-value">95%</span>
+                <span class="stat-label">report higher test scores</span>
+              </div>
+              <div>
+                <span class="stat-value">40k+</span>
+                <span class="stat-label">active learners weekly</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-preview">
+            <div class="chat-card">
+              <div class="chat-header">
+                <span class="chat-title">Live Session</span>
+                <span class="status online">● Online</span>
+              </div>
+              <div class="chat-window" id="chat-window">
+                <div class="message assistant">
+                  <p>Hi! I'm Study Note. What topic are we focusing on today?</p>
+                </div>
+              </div>
+              <form class="chat-input" id="chat-form">
+                <input
+                  id="chat-message"
+                  type="text"
+                  placeholder="Ask Study Note anything..."
+                  autocomplete="off"
+                  required
+                />
+                <button type="submit" class="primary">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="features">
+          <h2>Everything you need to stay curious</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Dynamic Explanations</h3>
+              <p>
+                Every answer combines visual analogies, step-by-step breakdowns,
+                and quick quizzes so you can revisit concepts from multiple angles.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Smart Notebook</h3>
+              <p>
+                Save key takeaways automatically. Highlight something and Study
+                Note turns it into flashcards, summaries, and practice prompts.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Guided Practice</h3>
+              <p>
+                Real-time feedback keeps you on track. As you answer questions,
+                the AI adapts difficulty and explains mistakes in plain language.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="testimonials">
+          <div class="testimonial-card">
+            <p class="quote">
+              “Study Note is the first AI tutor that feels like a thoughtful
+              study partner. It helps me map out what I don't know yet.”
+            </p>
+            <div class="author">
+              <img src="https://i.pravatar.cc/80?img=15" alt="Jordan" />
+              <div>
+                <p class="name">Jordan Harper</p>
+                <p class="role">Pre-med student, UC Berkeley</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <p class="quote">
+              “I use Study Note to prep for every client workshop. The mock Q&A
+              and outline builder keep me sharp and confident.”
+            </p>
+            <div class="author">
+              <img src="https://i.pravatar.cc/80?img=30" alt="Priya" />
+              <div>
+                <p class="name">Priya Iyer</p>
+                <p class="role">Learning designer</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta">
+          <div class="cta-card">
+            <h2>Ready to make consistent progress?</h2>
+            <p>
+              Join thousands of learners using Study Note to master exams,
+              presentations, and new skills with confidence.
+            </p>
+            <div class="hero-cta">
+              <button class="primary">Create Free Account</button>
+              <button class="ghost">Talk to Sales</button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer-grid">
+          <div class="brand">
+            <span class="logo">SN</span>
+            <span class="name">Study Note</span>
+          </div>
+          <div class="links">
+            <a href="#">Product</a>
+            <a href="#">Pricing</a>
+            <a href="#">Research</a>
+            <a href="#">Support</a>
+          </div>
+          <p class="copyright">
+            © <span id="year"></span> Study Note. Crafted for curious minds.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
